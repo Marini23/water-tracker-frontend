@@ -17,7 +17,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Provider store={store}>
       <PersistGate persistor={persistor}>
-        <BrowserRouter basename="/project-team5-frontend">
+        <BrowserRouter basename="/water-tracker-frontend">
           <ThemeProvider theme={theme}>
             <LocalizationProvider
               dateAdapter={AdapterDateFns}
